@@ -1,0 +1,7 @@
+{
+  "name": "ELVORA · Haute Gastronomie",
+  "description": "Private dining concierge and Michelin-partnered culinary delivery service with thermal dispatch tracking, bespoke course curation, and Privé sommelier service.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

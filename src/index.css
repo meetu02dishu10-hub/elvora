@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-surface: #121315;
+  --color-surface-dim: #121315;
+  --color-surface-bright: #38393b;
+  --color-surface-container-lowest: #0d0e10;
+  --color-surface-container-low: #1b1c1e;
+  --color-surface-container: #1f2022;
+  --color-surface-container-high: #292a2c;
+  --color-surface-container-highest: #343537;
+  --color-on-surface: #e3e2e5;
+  --color-on-surface-variant: #d1c5b4;
+  --color-secondary: #ccc5c1;
+  --color-secondary-container: #4a4643;
+  --color-primary: #e9c176;
+  --color-primary-container: #c5a059;
+  --color-on-primary: #412d00;
+  --color-tertiary: #e9c349;
+  --color-outline: #9a8f80;
+  --color-outline-variant: #4e4639;
+}
+
+@layer base {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121315;
+    color: #e3e2e5;
+    font-family: var(--font-sans);
+  }
+
+  /* Hide scrollbar for clean luxury horizontal ribbons */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
